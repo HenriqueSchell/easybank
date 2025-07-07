@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    border: 2px dashed red;
+}
+
+.logo-top{
+    height: 30px;
+}
+
+.logo-menu{
+    height: 20px;
+}
+
+.menu{
+    border: 2px dashed blue;
+    width: 90%;
+    margin: 30px auto;
+    display: none;
+    border-radius: 5px;
+}
+
+.menu-list{
+    text-align: center;
+    line-height: 40px;
+    font-family: "Public Sans", sans-serif;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: #2d314d;
+    font-size: 20px;
+}
