@@ -30,6 +30,11 @@
     cursor: pointer;
 }
 
+.btn-top:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
 .menu-item > a {
     color: #9b9b9b;
     position: relative;
@@ -94,6 +99,12 @@
 .btn-intro{
     padding: 15px;
     width: 40%;
+    font-size: 20px;
+}
+
+.btn-intro:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
 
 .text-choose{
@@ -127,3 +138,22 @@
     margin-left: 0;
     width: 60%
 }
+
+.articles{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.articles-title{
+    width: 100%;
+    text-align: left;
+    padding: 80px;
+}
+
+.article{
+    width: 250px;
+}
+
+
+
